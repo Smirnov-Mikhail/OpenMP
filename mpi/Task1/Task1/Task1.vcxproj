@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{84DA5422-D03D-48C5-A4FB-2A7CFBB4C5FE}</ProjectGuid>
+    <ProjectGuid>{1B86C0CE-9B9C-4BBF-A8C1-E447592CBCFD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Task1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -71,8 +71,6 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Program Files\Microsoft HPC Pack 2008 SDK;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files\Microsoft HPC Pack 2008 SDK\Lib\amd64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
